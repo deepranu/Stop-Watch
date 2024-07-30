@@ -18,4 +18,4 @@ To run this project, you need a modern web browser.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/stopwatch.git
+   git clone https://github.com/deepranu/Stop-Watch.git

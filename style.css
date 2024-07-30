@@ -24,7 +24,7 @@ body {
 }
 
 /* Style for the stopwatch container */
-#stopwatch-container {
+#bd {
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
     padding: 40px;
@@ -35,12 +35,12 @@ body {
 }
 
 /* Scale the container on hover */
-#stopwatch-container:hover {
+#bd {
     transform: scale(1.05);
 }
 
 /* Style for the stopwatch display */
-#stopwatch-display {
+#stopwatch {
     font-size: 4em;
     margin-bottom: 30px;
     color: #333;
@@ -66,19 +66,19 @@ button:active {
 }
 
 /* Specific styles for start button */
-#start-button {
+#start {
     background: linear-gradient(135deg, #28a745, #218838);
     color: white;
 }
 
 /* Specific styles for stop button */
-#stop-button {
+#stop {
     background: linear-gradient(135deg, #dc3545, #c82333);
     color: white;
 }
 
 /* Specific styles for reset button */
-#reset-button {
+#reset {
     background: linear-gradient(135deg, #ffc107, #e0a800);
     color: white;
 }

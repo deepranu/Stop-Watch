@@ -1,4 +1,4 @@
-
+/* Apply flexbox layout to center content both vertically and horizontally */
 body {
     display: flex;
     justify-content: center;
@@ -10,6 +10,7 @@ body {
     animation: gradient 5s ease infinite;
 }
 
+/* Define keyframes for gradient background animation */
 @keyframes gradient {
     0% {
         background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
@@ -22,7 +23,8 @@ body {
     }
 }
 
-#bd {
+/* Style for the stopwatch container */
+#stopwatch-container {
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
     padding: 40px;
@@ -32,17 +34,20 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-#bd:hover {
+/* Scale the container on hover */
+#stopwatch-container:hover {
     transform: scale(1.05);
 }
 
-#stopwatch {
+/* Style for the stopwatch display */
+#stopwatch-display {
     font-size: 4em;
     margin-bottom: 30px;
     color: #333;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* General button styles */
 button {
     padding: 15px 30px;
     font-size: 1.2em;
@@ -55,25 +60,30 @@ button {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Scale button down slightly on active state */
 button:active {
     transform: scale(0.95);
 }
 
-#start {
+/* Specific styles for start button */
+#start-button {
     background: linear-gradient(135deg, #28a745, #218838);
     color: white;
 }
 
-#stop {
+/* Specific styles for stop button */
+#stop-button {
     background: linear-gradient(135deg, #dc3545, #c82333);
     color: white;
 }
 
-#reset {
+/* Specific styles for reset button */
+#reset-button {
     background: linear-gradient(135deg, #ffc107, #e0a800);
     color: white;
 }
 
+/* Slight opacity change on button hover */
 button:hover {
     opacity: 0.9;
 }

@@ -1,3 +1,21 @@
-# Stop-Watch
+# Stopwatch
 
-** here code is html css and js with response stop watch with animated baground 
+A simple and elegant stopwatch application built using HTML, CSS, and JavaScript.
+
+## Features
+
+- Start, stop, and reset the stopwatch
+- Smooth background gradient animation
+- Responsive and user-friendly design
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you need a modern web browser.
+
+### Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/stopwatch.git

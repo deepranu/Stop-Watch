@@ -1,0 +1,79 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    }
+    50% {
+        background: linear-gradient(135deg, #c3cfe2, #f5f7fa);
+    }
+    100% {
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    }
+}
+
+#bd {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+#bd:hover {
+    transform: scale(1.05);
+}
+
+#stopwatch {
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#start {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: white;
+}
+
+#stop {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    color: white;
+}
+
+#reset {
+    background: linear-gradient(135deg, #ffc107, #e0a800);
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}

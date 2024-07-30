@@ -1,18 +1,21 @@
-<DOCTYPE html>
-    <html>
-        <head>
-            <title>
-                Stopwatch
-            </title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-        <body id = "bdy">
-            <div id = "bd">
-            <h1 id="stopwatch">00:00:00</h1>
-            <button id="start" onclick="startStopwatch()">Start</button>
-            <button id="stop" onclick="stopStopwatch()">Stop</button>
-            <button id="reset" onclick="resetStopwatch()">Reset</button>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stopwatch</title>
+        <!-- Linking to the external CSS file for styling -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="body">
+        <!-- Container for the stopwatch display and control buttons -->
+        <div id="stopwatch-container">
+            <!-- Display for the stopwatch time -->
+            <h1 id="stopwatch-display">00:00:00</h1>
+            <!-- Buttons to control the stopwatch -->
+            <button id="start-button" onclick="startStopwatch()">Start</button>
+            <button id="stop-button" onclick="stopStopwatch()">Stop</button>
+            <button id="reset-button" onclick="resetStopwatch()">Reset</button>
         </div>
+        <!-- Linking to the external JavaScript file for functionality -->
         <script src="script.js"></script>
-        </body>
-    </html>
+    </body>
+</html>
